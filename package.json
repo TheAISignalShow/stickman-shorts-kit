@@ -1,0 +1,28 @@
+{
+  "name": "stickman-shorts-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Make silent, text-led 2D stickman Shorts in code with Remotion and Claude. By The AI Signal.",
+  "scripts": {
+    "studio": "remotion studio",
+    "check": "node tools/check.mjs",
+    "render": "remotion render",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/google-fonts": "4.0.539",
+    "@remotion/layout-utils": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "matter-js": "0.20.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/matter-js": "0.20.2",
+    "@types/react": "18.3.12",
+    "typescript": "5.9.3"
+  }
+}
